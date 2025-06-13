@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apotek 24 Jam Jogja</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>Apotek 24 Jam Jogja di Dalam Ringroad</header>
+
+<div id="sidebarToggle">☰</div>
+    <aside id="sidebar">
+  <h2>📍 Info WebGIS</h2>
+
+  <button id="listBtn">🧾 Lihat Daftar Apotek</button>
+  <button id="manualBtn">📍 Pilih Lokasi Manual</button>
+
+
+  <div style="margin-top: 16px;">
+    <h3>👨‍💻 Kelompok 10 Pemrograman Spasial</h3>
+    <p><strong>Dosen Pengampu:</strong><br>
+    Dr. Nur Mohammad Farda, S.Si., M.Cs.</p>
+
+    <p><strong>Anggota Kelompok:</strong></p>
+    <ul style="padding-left: 18px; list-style-type: disc;">
+      <li>Ageng Haryo Widagdo</li>
+      <li>Darvpa Nusantara Yogya</li>
+      <li>Fifi Nurul Aini</li>
+      <li>Farah Setyani Danial</li>
+      <li>Hasna Fauziyah</li>
+      <li>Gabriella Divanka</li>
+    </ul>
+  </div>
+</aside>
+
+  <main>
+    <div id="map" role="region" aria-label="Map showing your location and nearby apotek"></div>
+    <div id="infoBox" aria-live="polite" aria-atomic="true" aria-relevant="additions removals"></div>
+  </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

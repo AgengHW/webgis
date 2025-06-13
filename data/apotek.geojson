@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "RS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ID": 0, "NAMA_RS": "RS Ludira Husada Tama" }, "geometry": { "type": "Point", "coordinates": [ 110.353146575962825, -7.791602127395168 ] } },
+{ "type": "Feature", "properties": { "ID": 0, "NAMA_RS": "RS Bethesda" }, "geometry": { "type": "Point", "coordinates": [ 110.378352861040071, -7.783707268290728 ] } },
+{ "type": "Feature", "properties": { "ID": 0, "NAMA_RS": "RS Panti Rapih" }, "geometry": { "type": "Point", "coordinates": [ 110.375512990504816, -7.776388911043936 ] } },
+{ "type": "Feature", "properties": { "ID": 0, "NAMA_RS": "RS Bethesda Lempuyangan" }, "geometry": { "type": "Point", "coordinates": [ 110.373034638827193, -7.795964611700608 ] } },
+{ "type": "Feature", "properties": { "ID": 0, "NAMA_RS": "RSU PKU Muhammadiyah" }, "geometry": { "type": "Point", "coordinates": [ 110.362909103478103, -7.800302850874055 ] } },
+{ "type": "Feature", "properties": { "ID": 0, "NAMA_RS": "RSUD Kodya" }, "geometry": { "type": "Point", "coordinates": [ 110.378260738368752, -7.825015080740911 ] } },
+{ "type": "Feature", "properties": { "ID": 0, "NAMA_RS": "RS Veteran" }, "geometry": { "type": "Point", "coordinates": [ 110.394161634938939, -7.806242340139683 ] } },
+{ "type": "Feature", "properties": { "ID": 0, "NAMA_RS": "RSI Hidayatullah" }, "geometry": { "type": "Point", "coordinates": [ 110.387148456300707, -7.814310695987295 ] } },
+{ "type": "Feature", "properties": { "ID": 0, "NAMA_RS": "RS PKU Muhammadiyah Kotag" }, "geometry": { "type": "Point", "coordinates": [ 110.400789011675954, -7.82178278878672 ] } },
+{ "type": "Feature", "properties": { "ID": 0, "NAMA_RS": "RS Patmasuri" }, "geometry": { "type": "Point", "coordinates": [ 110.358626312418522, -7.828984117694369 ] } }
+]
+}
